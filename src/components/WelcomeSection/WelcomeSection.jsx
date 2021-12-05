@@ -1,13 +1,14 @@
+import { WelcomeContainer, WelcomeWrapper } from "./WelcomeSection.styled"
 
 
-
-export default function WelcomeSection() {
+export default function WelcomeSection({ lightBg }) {
 
 
     return (
-        <>
-            <h2>Julia Bayless</h2>
-            <p>thanks for checking out my page</p>
-        </>
+        <WelcomeContainer>
+            <WelcomeWrapper>
+                <h2>Julia Bayless</h2>
+            </WelcomeWrapper>
+        </WelcomeContainer>
     )
 };

@@ -1,6 +1,5 @@
 
 //components
-import './App.css';
 import WelcomeSection from '../WelcomeSection/WelcomeSection';
 import AboutMeSection from '../AboutMeSection/AboutMeSection';
 import MyWorkSection from '../MyWorkSection/MyWorkSection';

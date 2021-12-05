@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
 
-export const AboutMeContainer = styled.div`
-  color: #fff;
-  background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606")};
+export const WelcomeContainer = styled.div`
+  background: #880e4f;
   @media screen and (max-width: 768px) {
     padding: 100px 0;
   }
@@ -12,15 +11,14 @@ export const AboutMeContainer = styled.div`
   }
 `;
 
-export const AboutMeWrapper = styled.div`
+export const WelcomeWrapper = styled.div`
+  color: #fff;
   align-items: center;
   display: grid;
-  z-index: 1;
   height: 860px;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
-  padding: 0 24px;
   justify-content: center;
 `;
